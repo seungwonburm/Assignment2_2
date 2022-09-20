@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         EditText firstEmail = (EditText) findViewById(R.id.email);
         String first = (firstEmail.getText().toString());
 
-
         if (first.contains("@")){
             tv.setText("VALID");
         }else{
